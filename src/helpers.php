@@ -30,7 +30,7 @@ if (!function_exists('filter_special')) {
             ' ',
             '‭',
             '‬',
-            helpers . phpchr(194) . chr(160),
+            chr(194) . chr(160),
             "\n",
             "\r",
             "\t",

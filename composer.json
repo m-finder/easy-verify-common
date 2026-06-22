@@ -14,5 +14,7 @@
             "email": "yf-wu@qq.com"
         }
     ],
-    "require": {}
+    "require": {
+      "php": "^8.0"
+    }
 }

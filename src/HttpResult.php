@@ -1,5 +1,7 @@
 <?php
 
+namespace Wu\EasyVerifyCommon;
+
 interface HttpResult
 {
     public function isSuccess();

@@ -63,9 +63,9 @@ if (!function_exists('fen2yuan')) {
      * @param int|null $amount
      * @param int $scale
      * @param bool $format
-     * @return int|string
+     * @return string|int|null
      */
-    function fen2yuan(?int $amount = null, int $scale = 2, bool $format = false): string
+    function fen2yuan(?int $amount = null, int $scale = 2, bool $format = false): string|int|null
     {
         return empty($amount) ? 0 : ($format ? number_format(bcdiv($amount, 100, 5), $scale) : bcdiv($amount, 100, 2));
     }
